@@ -46,4 +46,4 @@ Original case study by Danny Ma
 
 ### 🧠 Solution
 
-Click (here)[danny_solution.md] to view the solution solution of the case study!
+Click [here](danny_solution.md) to view the solution solution of the case study!
