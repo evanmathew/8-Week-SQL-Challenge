@@ -51,6 +51,7 @@ ORDER BY
 
 
 <br>
+<br>
 
 ### 3.What was the first item from the menu purchased by each customer?
 
@@ -76,6 +77,7 @@ ORDER BY customer_id
 | B           | curry        |
 | C           | ramen        |
 
+<br>
 <br>
 
 ### 4.What is the most purchased item on the menu and how many times was it purchased by all customers?
@@ -113,6 +115,7 @@ WHERE
 | ramen               | 8                 |
 
 
+<br>
 <br>
 
 ### 5.Which item was the most popular for each customer?
@@ -154,6 +157,7 @@ GROUP BY
 | B           | sushi, curry, ramen | 2           |
 | C           | ramen               | 3           |
 
+<br>
 <br>
 
 
@@ -197,6 +201,7 @@ ORDER BY s.customer_id ASC
 | B           | sushi         | 2021-01-11 |
 
 
+<br>
 <br>
 
 ### 7. Which item was purchased just before the customer became a member?
@@ -243,6 +248,7 @@ ORDER BY s.customer_id ASC, product_names
 | B           | sushi         | 2021-01-04 |
 
 <br>
+<br>
 
 ###  8. What is the total items and amount spent for each member before they became a member?
 
@@ -274,6 +280,8 @@ ORDER BY
 | A           | 2              | $25          |
 | B           | 3              | $40          |
 
+<br>
+<br>
 
 
 ### 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
@@ -302,6 +310,10 @@ ORDER BY
 | A           | 860          |
 | B           | 940          |
 | C           | 360          |
+
+
+<br>
+<br>
 
 
 ###  10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January

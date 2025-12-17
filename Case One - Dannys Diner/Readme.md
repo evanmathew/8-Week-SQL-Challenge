@@ -1,13 +1,15 @@
 # 🍜 Case Study 1 – Danny’s Diner
 
-### 📌 Case Overview
+<br>
+
+## 📌 Case Overview
 Danny wants to analyze customer data for his small restaurant, Danny’s Diner, to better understand customer behavior, spending patterns, and the impact of his loyalty program.
 
 This case study is solved using SQL only, focusing on translating business questions into clear and efficient queries.
 
 <br>
 
-### 🗂️ Tables Used
+## 🗂️ Tables Used
 
 Three key datasets for this case study
 
@@ -18,12 +20,12 @@ Three key datasets for this case study
 <br>
 
 
-### Entity Relationship Diagram
+## Entity Relationship Diagram
 ![ER Digram](ER_Diagram.png)
 
 <br>
 
-### ❓Business Questions
+## ❓Business Questions
 - What is the total amount each customer spent at the restaurant?
 - How many days has each customer visited the restaurant?
 - What was the first item from the menu purchased by each customer?
@@ -37,13 +39,13 @@ Three key datasets for this case study
 
 <br>
 
-### 🔗 Case Study Reference
+## 🔗 Case Study Reference
 
 Original case study by Danny Ma
 👉 https://8weeksqlchallenge.com/case-study-1/
 
 <br>
 
-### 🧠 Solution
+## 🧠 Solution
 
-Click [here](danny_solution.md) to view the solution solution of the case study!
+Click [here](dannys_diner_solution.md) to view the solution solution of the case study!
