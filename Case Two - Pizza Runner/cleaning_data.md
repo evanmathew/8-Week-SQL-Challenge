@@ -23,11 +23,11 @@ Several columns contain:
 
 ## 🗂️ Tables Cleaned:
 
-### **runner_orders**
+### - **runner_orders**
 
 Issues Identified
 
-- pickup_time contains 'null' and empty values
+-- pickup_time contains 'null' and empty values
 
 - distance includes units like km and invalid text
 
