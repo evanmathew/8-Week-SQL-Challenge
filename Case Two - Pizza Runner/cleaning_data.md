@@ -1,6 +1,9 @@
 # Data Cleaning 
+<br>
 
 ## 📌 Overview
+
+
 Before performing any analysis in the Pizza Runner case study, the raw data requires significant cleaning.
 
 
@@ -14,10 +17,15 @@ Several columns contain:
 
 - Incorrect or inconsistent timestamps
 
+<br>
+<br>
+
 
 ## 🗂️ Tables Cleaned:
+<br>
 
-### A) runner_orders
+### runner_orders
+
 
 Issues Identified
 
