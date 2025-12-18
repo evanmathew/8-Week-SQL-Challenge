@@ -1,4 +1,4 @@
-# Data Cleaning 
+# 🧹 Data Cleaning 
 <br>
 
 ## 📌 Overview
@@ -17,11 +17,9 @@ Several columns contain:
 
 - Incorrect or inconsistent timestamps
 
-<br>
-<br>
+---
 
-
-## **runner_orders**
+## **🍱 runner_orders**
 
 ### Issues Identified
 
@@ -89,16 +87,20 @@ FROM
 <br>
 <br>
 
-## **customer_orders**
+## **🧾 customer_orders**
 
 ### Issues Identified
 
 Exclusions and extras contain:
 
-	- 'null'
+- 'null'
+- Empty strings
+- Comma-separated values stored as text
 
-	- Empty strings
-	- Comma-separated values stored as text
+Data Manipulation:
+
+- Seperating timestamp into two columns such as `pickup_date` and `pickup_time` 
+- Formating Distance and Duration into NUMERIC  
 
 ### Code
 ```sql
@@ -147,7 +149,7 @@ FROM
 <br>
 <br>
 
-## **clean_pizza_recipes**
+## **🍕 pizza_recipes**
 
 ### Issues Identified
 
