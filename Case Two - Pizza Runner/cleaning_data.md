@@ -18,8 +18,6 @@ Several columns contain:
 - Incorrect or inconsistent timestamps
 
 <br>
----
-<br>
 
 ## **🍱 runner_orders**
 
@@ -86,8 +84,6 @@ FROM
 | 10       | 1         | 2020-01-11  | 18:50:20    | 10             | 10              |                         |
 
 
-<br>
-<br>
 
 ## **🧾 customer_orders**
 
@@ -149,7 +145,6 @@ FROM
 
 
 <br>
-<br>
 
 ## **🍕 pizza_recipes**
 
@@ -193,7 +188,3 @@ FROM pizza_recipes;
 | 2        | 9        |
 | 2        | 11       |
 | 2        | 12       |
-
-
-<br>
-<br>
