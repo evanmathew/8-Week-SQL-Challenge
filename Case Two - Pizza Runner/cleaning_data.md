@@ -22,10 +22,8 @@ Several columns contain:
 
 
 ## 🗂️ Tables Cleaned:
-<br>
 
-### runner_orders
-
+#### **runner_orders**
 
 Issues Identified
 
@@ -36,3 +34,5 @@ Issues Identified
 - duration includes text such as minutes
 
 - Inconsistent casing (null, NULL, Null)
+
+
