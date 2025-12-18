@@ -23,16 +23,16 @@ Several columns contain:
 
 ## 🗂️ Tables Cleaned:
 
-### - **runner_orders**
+### -**runner_orders**
 
-Issues Identified
+	Issues Identified
 
--- pickup_time contains 'null' and empty values
+	- pickup_time contains 'null' and empty values
 
-- distance includes units like km and invalid text
+	- distance includes units like km and invalid text
 
-- duration includes text such as minutes
+	- duration includes text such as minutes
 
-- Inconsistent casing (null, NULL, Null)
+	- Inconsistent casing (null, NULL, Null)
 
 
