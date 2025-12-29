@@ -83,7 +83,7 @@ FROM
 | 9        | 2         |             |             |                |                 | Customer Cancellation   |
 | 10       | 1         | 2020-01-11  | 18:50:20    | 10             | 10              |                         |
 
-
+<br>
 
 ## **🧾 customer_orders**
 

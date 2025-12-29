@@ -1,21 +1,25 @@
-# 🍜 Case Study 1 – Danny’s Diner
+# 🍕 Case Study 2 – Pizza Runner  
 
 <br>
 
-## 📌 Case Overview
-Danny wants to analyze customer data for his small restaurant, Danny’s Diner, to better understand customer behavior, spending patterns, and the impact of his loyalty program.
+## 📌 Overview
+This case study analyzes the operations of **Pizza Runner**, a pizza delivery service.  
+The objective is to use **SQL only** to clean the raw data and answer business questions related to orders, deliveries, runners, and customer behavior.
 
-This case study is solved using SQL only, focusing on translating business questions into clear and efficient queries.
+The dataset contains multiple inconsistencies and data quality issues, making **data cleaning a critical first step** before analysis.
 
 <br>
 
 ## 🗂️ Tables Used
 
-Three key datasets for this case study
+Six key datasets for this case study
 
-- **sales:** The sales table captures all customer_id level purchases with an corresponding order_date and product_id information for when and what menu items were ordered.
-- **menu:** The menu table maps the product_id to the actual product_name and price of each menu item.
-- **members:** The members table captures the join_date when a customer_id joined the beta version of the Danny’s Diner loyalty program.
+- **runners** : The table shows the registration_date for each new runner
+- **customer_orders** : Customer pizza orders are captured in the customer_orders table with 1 row for each individual pizza that is part of the order. The pizza_id relates to the type of pizza which was ordered whilst the exclusions are the ingredient_id values which should be removed from the pizza and the extras are the ingredient_id values which need to be added to the pizza.
+- **runner_orders** : After each orders are received through the system - they are assigned to a runner - however not all orders are fully completed and can be cancelled by the restaurant or the customer. The pickup_time is the timestamp at which the runner arrives at the Pizza Runner headquarters to pick up the freshly cooked pizzas. The distance and duration fields are related to how far and long the runner had to travel to deliver the order to the respective customer.
+- **pizza_names** : Pizza Runner only has 2 pizzas available the Meat Lovers or Vegetarian!
+- **pizza_recipes** : Each pizza_id has a standard set of toppings which are used as part of the pizza recipe.
+- **pizza_toppings** : The table contains all of the topping_name values with their corresponding topping_id value
 
 <br>
 
@@ -25,27 +29,26 @@ Three key datasets for this case study
 
 <br>
 
-## ❓Business Questions
-- What is the total amount each customer spent at the restaurant?
-- How many days has each customer visited the restaurant?
-- What was the first item from the menu purchased by each customer?
-- What is the most purchased item on the menu and how many times was it purchased by all customers?
-- Which item was the most popular for each customer?
-- Which item was purchased first by the customer after they became a member?
-- Which item was purchased just before the customer became a member?
-- What is the total items and amount spent for each member before they became a member?
-- If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
-- In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+## 🧹 Data Cleaning
+The raw data includes:
+- Text values representing missing data (`'null'`, empty strings)
+- Mixed data types
+- Units embedded within numeric fields
+- Comma-separated values stored in single columns
+
+[Check here for Data Cleaning File](https://github.com/evanmathew/8-Week-SQL-Challenge/blob/main/Case%20Two%20-%20Pizza%20Runner/cleaning_data.md)
+
+<br>
+
+## ❓Case Study Solutions
+- [A. Pizza Metrics]()
+- [B. Runner and Customer Experience]()
+- [C. Ingredient Optimisation]()
+- [D. Pricing and Ratings]()
 
 <br>
 
 ## 🔗 Case Study Reference
 
 Original case study by Danny Ma
-👉 https://8weeksqlchallenge.com/case-study-1/
-
-<br>
-
-## 🧠 Solution
-
-Click [here](dannys_diner_solution.md) to view the solution solution of the case study!
+👉 https://8weeksqlchallenge.com/case-study-2/
