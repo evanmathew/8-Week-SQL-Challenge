@@ -141,5 +141,55 @@ ORDER BY
 ### 5. What was the difference between the longest and shortest delivery times for all orders?
 
 ```sql
+SELECT 
+  MIN(duration_in_min) AS min_duration,
+  MAX(duration_in_min) AS max_duration,
+    MAX(duration_in_min) - MIN(duration_in_min) AS "differnce b/w longest & shortest distance"
+FROM 
+  clean_runner_orders
+```
+
+### Output:
+| min_duration | max_duration | differnce b/w longest & shortest distance |
+| ------------ | ------------ | ----------------------------------------- |
+| 10           | 40           | 30                                        |
+
+<br>
+
+
+### 6. What was the average speed for each runner for each delivery and do you notice any trend for these values?
+
+```sql
+SELECT
+  runner_id AS "Runner ID",
+  CONCAT(distance_in_km,' km') AS "Distance In KM",
+  CONCAT(ROUND(duration_in_min/60,2),' hr' )AS "Duration In Hour",
+  CONCAT(ROUND(distance_in_km /(duration_in_min/60),2),' km/hr') AS "Average Speed"
+FROM
+  clean_runner_orders
+WHERE 
+  cancellation IS NULL
+ORDER BY 
+  runner_id
+```
+
+### Output:
+| Runner ID | Distance In KM | Duration In Hour | Average Speed |
+| --------- | -------------- | ---------------- | ------------- |
+| 1         | 20 km          | 0.53 hr          | 37.50 km/hr   |
+| 1         | 20 km          | 0.45 hr          | 44.44 km/hr   |
+| 1         | 13.4 km        | 0.33 hr          | 40.20 km/hr   |
+| 1         | 10 km          | 0.17 hr          | 60.00 km/hr   |
+| 2         | 25 km          | 0.42 hr          | 60.00 km/hr   |
+| 2         | 23.4 km        | 0.25 hr          | 93.60 km/hr   |
+| 2         | 23.4 km        | 0.67 hr          | 35.10 km/hr   |
+| 3         | 10 km          | 0.25 hr          | 40.00 km/hr   |
+
+
+<br>
+
+### 7. What is the successful delivery percentage for each runner?
+
+```sql
 
 ```
