@@ -1,4 +1,4 @@
-# 🍜 Case Study #1: Pizza Runner- PIZZA METRICS (Solution)
+# 🍜 Case Study #2-A: Pizza Runner- PIZZA METRICS (Solution)
 
 ###  1. How many pizzas were ordered?
 
