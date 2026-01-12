@@ -191,5 +191,24 @@ ORDER BY
 ### 7. What is the successful delivery percentage for each runner?
 
 ```sql
-
+SELECT 
+  runner_id,  
+  COUNT(pickup_time) AS "Order Delivered",
+  COUNT(*) AS "Total Delivered",
+  ROUND(100*COUNT(pickup_time)/COUNT(*),2) AS "Successful Delivery Percentage"
+FROM 
+  clean_runner_orders
+GROUP BY 
+  runner_id
+ORDER BY 
+  runner_id
 ```
+
+### Output:
+| runner_id | Order Delivered | Total Delivered | Successful Delivery Percentage |
+| --------- | --------------- | --------------- | ------------------------------ |
+| 1         | 4               | 4               | 100.00                         |
+| 2         | 3               | 4               | 75.00                          |
+| 3         | 1               | 2               | 50.00                          |
+
+<br>
