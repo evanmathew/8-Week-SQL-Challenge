@@ -42,8 +42,8 @@ The raw data includes:
 
 ## ❓Case Study Solutions
 - [A. Pizza Metrics](https://github.com/evanmathew/8-Week-SQL-Challenge/blob/main/Case%20Two%20-%20Pizza%20Runner/Pizza%20Metric.md)
-- [B. Runner and Customer Experience]()
-- [C. Ingredient Optimisation]()
+- [B. Runner and Customer Experience](https://github.com/evanmathew/8-Week-SQL-Challenge/blob/main/Case%20Two%20-%20Pizza%20Runner/Runner%20%26%20Customer%20Experience.md)
+- [C. Ingredient Optimisation](https://github.com/evanmathew/8-Week-SQL-Challenge/blob/main/Case%20Two%20-%20Pizza%20Runner/Ingredient%20Optimisation.md)
 - [D. Pricing and Ratings]()
 
 <br>
