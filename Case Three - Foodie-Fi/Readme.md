@@ -17,7 +17,7 @@ This case study focuses on analyzing subscription journeys, revenue patterns, an
 
 Foodie-Fi provides the following tables:
 
-**plans table**
+**plans table** :
 Details of each subscription plan offered.
 | Column Name | Description               |
 | ----------- | ------------------------- |
@@ -26,14 +26,14 @@ Details of each subscription plan offered.
 | price       | Monthly price of the plan |
 
 There are 4 customer plans.
-1. Basic plan: only available for $9.90 per month, clients have restricted access and can only stream their films.
-2. Customers may download videos for offline watching and have no time limitations while using the Pro package. Pro options begin at $19.90 per month, with an annual membership costing $199.
-3. Trial plan: Unless they cancel, downgrade to basic, or upgrade to an annual pro plan at any time during the trial, customers who sign up for the first seven-day free trial will automatically continue with the pro monthly subscription plan.
-4. Churn plan: Customers will have a churn plan record with a null price when they terminate their Foodie-Fi service, but their plan will remain active until the end of the payment cycle.
+- Basic plan: only available for $9.90 per month, clients have restricted access and can only stream their films.
+- Customers may download videos for offline watching and have no time limitations while using the Pro package. Pro options begin at $19.90 per month, with an annual membership costing $199.
+- Trial plan: Unless they cancel, downgrade to basic, or upgrade to an annual pro plan at any time during the trial, customers who sign up for the first seven-day free trial will automatically continue with the pro monthly subscription plan.
+- Churn plan: Customers will have a churn plan record with a null price when they terminate their Foodie-Fi service, but their plan will remain active until the end of the payment cycle.
 
 
 
-**subscriptions table**
+**subscriptions table** :
 Tracks customer subscriptions over time.
 | Column Name | Description                |
 | ----------- | -------------------------- |
@@ -51,7 +51,7 @@ Tracks customer subscriptions over time.
 
 
 
-## Entity Relationship Diagram
+## 🧠 Entity Relationship Diagram
 ![ER Digram](ER_Diagram.png)
 
 <br>
