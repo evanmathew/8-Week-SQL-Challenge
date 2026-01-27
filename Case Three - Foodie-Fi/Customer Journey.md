@@ -1,6 +1,6 @@
 # 🥑 Case Study 3-A – Foodie-Fi - Customer Journey (Solution)
 
-## 1. Based off the 8 sample customers provided in the sample from the subscriptions table, write a brief description about each customer’s onboarding journey.Try to keep it as short as possible - you may also want to run some sort of join to make your explanations a bit easier!
+### 1. Based off the 8 sample customers provided in the sample from the subscriptions table, write a brief description about each customer’s onboarding journey.Try to keep it as short as possible - you may also want to run some sort of join to make your explanations a bit easier!
 
 For this Scenerio, I would be taking following random customer_id's from the subscriptions table to view their onboarding journey. Checking the following customer_id's : 1,21,73,87,99,193,290,400
 
@@ -24,7 +24,7 @@ ORDER BY
   sub.customer_id, sub.start_date
 ```
 
-### Output:
+#### Output:
 | Customer ID | Plan Name     | Start Date of the Plan |
 | ----------- | ------------- | ---------------------- |
 | 1           | trial         | 01 August    2020      |
@@ -52,28 +52,29 @@ ORDER BY
 | 400         | basic monthly | 04 May       2020      |
 
 
-### 🧑‍🍳 Customer Onboarding Journeys
+#### 🧑‍🍳 Customer Onboarding Journeys
 
-- Customer 1
+- **Customer 1**
   - Started with a trial and quickly upgraded to the basic monthly plan, remaining active.
 
-- Customer 21
+- **Customer 21**
   Moved from trial → basic monthly → pro monthly, then churned after several months.
 
-- Customer 73
+- **Customer 73**
   - Progressed steadily from trial → basic monthly → pro monthly → pro annual, showing strong long-term commitment.
 
-- Customer 87
+- **Customer 87**
   - Upgraded rapidly from trial to pro monthly, then converted to pro annual within one month.
 
-- Customer 99
+- **Customer 99**
   - Signed up for a trial and churned shortly after, without converting to a paid plan.
 
-- Customer 193
+- **Customer 193**
   - Transitioned from trial → basic monthly → pro monthly → pro annual, indicating increasing engagement over time.
 
-- Customer 290
+- **Customer 290**
   - Converted from trial to basic monthly and remained on that plan.
 
-- Customer 400
+- **Customer 400**
   - Upgraded from trial to basic monthly with no further plan changes recorded.
+
