@@ -4,7 +4,7 @@
 
 <br>
 For this Scenerio, I would be taking following random customer_id's from the subscriptions table to view their onboarding journey. Checking the following customer_id's : 1,21,73,87,99,193,290,400
-
+<br>
 
 ```sql
 SELECT 
