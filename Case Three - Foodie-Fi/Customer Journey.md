@@ -2,6 +2,7 @@
 
 ### 1. Based off the 8 sample customers provided in the sample from the subscriptions table, write a brief description about each customer’s onboarding journey.Try to keep it as short as possible - you may also want to run some sort of join to make your explanations a bit easier!
 
+<br>
 For this Scenerio, I would be taking following random customer_id's from the subscriptions table to view their onboarding journey. Checking the following customer_id's : 1,21,73,87,99,193,290,400
 
 
@@ -51,6 +52,7 @@ ORDER BY
 | 400         | trial         | 27 April     2020      |
 | 400         | basic monthly | 04 May       2020      |
 
+<br>
 
 #### 🧑‍🍳 Customer Onboarding Journeys
 
